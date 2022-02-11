@@ -24,7 +24,7 @@ a {
 @media only screen and (max-width: 600px) {
   a {
     margin-left: 5px;
-    font-size: 10px;
+    font-size: 20px;
   }
 }
 
@@ -79,7 +79,7 @@ a {
   }
 
   .navbar-list a {
-    min-height: 8vh;
+    min-height: 10vh;
   }
 
   .navbar-list-active {
@@ -101,18 +101,11 @@ a {
   }
 
   @keyframes navlinksAnimated {
-    0% {
-      opacity: 0;
-      transform: translateX(50px);
+    from {
+      transform: translateX(100px);
     }
 
-    50% {
-      opacity: 0.5;
-      transform: translateX(30px);
-    }
-
-    100% {
-      opacity: 1;
+    to {
       transform: translateX(0);
     }
   }

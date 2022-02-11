@@ -6,24 +6,12 @@ const navbarSlide = () => {
   burger.addEventListener("click", () => {
     navbar.classList.toggle("navbar-list-active");
 
-    navlinks.forEach((link, index) => {
-      link.style.animation = `navlinksAnimated 1.5s ease forwards ${
-        index / 7 + 0.1
-      }s`;
-    });
-
     burger.classList.toggle("toggle");
   });
 
   navlinks.forEach((items) => {
     items.addEventListener("click", () => {
       navbar.classList.toggle("navbar-list-active");
-
-      navlinks.forEach((link, index) => {
-        link.style.animation = `navlinksAnimated 1.5s ease forwards ${
-          index / 7 + 0.1
-        }s`;
-      });
 
       burger.classList.toggle("toggle");
     });
@@ -138,4 +126,11 @@ tl5.from(".card-third-section", {
   y: 40,
   opacity: 0,
   delay: 0.2,
+});
+
+gsap.from(".navbar-list a", {
+  duration: 2,
+  x: 100,
+  opacity: 0,
+  delay: 1.5,
 });

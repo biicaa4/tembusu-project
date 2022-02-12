@@ -21,10 +21,22 @@ a {
   margin-left: 50px;
 }
 
+@media only screen and (max-width: 900px) {
+  a {
+    margin-left: 15px;
+    font-size: 20px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   a {
     margin-left: 5px;
-    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  a {
+    font-size: 15px;
   }
 }
 
@@ -43,7 +55,7 @@ a {
   margin: 0 102px 0 102px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 915px) {
   .navbar {
     margin: 0 20px;
     padding-top: 30px;
@@ -123,6 +135,13 @@ a {
   }
 }
 
+@media only screen and (max-width: 300px) {
+  .logo {
+    width: 40%;
+    height: 40px;
+  }
+}
+
 .button {
   background-color: #3bb884;
   display: flex;
@@ -183,7 +202,7 @@ a {
   margin: 0 102px 0 102px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 920px) {
   .first-section-content {
     padding-top: 50px;
     margin: 0 25px;
@@ -206,6 +225,18 @@ a {
   }
 }
 
+@media only screen and (max-width: 360px) {
+  .heading {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .heading {
+    font-size: 20px;
+  }
+}
+
 .body-copy-section {
   width: 702px;
   padding-top: 32px;
@@ -215,7 +246,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .body-copy-section {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -260,11 +291,23 @@ ul {
   margin-left: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .body-copy-button {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .body-copy-button {
+    width: 100%;
+  }
+}
+
 /* second section */
 
 .second-section {
   background: url(./img/second-background.png);
-  background-size: contain;
+  background-size: 100% 100%;
   padding-bottom: 300px;
 }
 
@@ -285,10 +328,17 @@ ul {
   margin: 0 102px 0 102px;
 }
 
+@media only screen and (max-width: 920px) {
+  .heading-second {
+    font-size: 30px;
+    width: 90%;
+    margin: 0 0 0 20px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .heading-second {
     font-size: 20px;
-    margin: 0 0 0 20px;
     padding-top: 88px;
   }
 }
@@ -299,11 +349,17 @@ ul {
   margin: 0 64px 0 102px;
 }
 
+@media only screen and (max-width: 920px) {
+  .second-section-content {
+    margin: 32px 0 0 0px;
+    width: 98%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .second-section-content {
     display: flex;
     flex-direction: column-reverse;
-    margin: 32px 0 0 13px;
   }
 }
 
@@ -317,14 +373,38 @@ ul {
   padding-top: 88px;
 }
 
+@media only screen and (max-width: 1300px) {
+  .body-copy-second p {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .body-copy-second p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .body-copy-second {
+    width: 95%;
+    padding-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .body-copy-second {
+    margin-left: 13px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .body-copy-second {
-    color: #ffffff;
     font-size: 15px;
-    font-weight: 400;
-    width: 100%;
     padding-top: 32px;
     padding-left: 5px;
+
+    width: 90%;
   }
 }
 
@@ -341,13 +421,31 @@ ul {
   }
 }
 
+.img-section {
+  width: 506px;
+}
+
+@media only screen and (max-width: 920px) {
+  .img-section {
+    width: 100%;
+  }
+}
+
 .img {
   width: 506px;
+  height: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+  .img {
+    width: 100%;
+    margin-left: 13px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .img {
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -391,9 +489,22 @@ ul {
   position: relative;
 }
 
+@media only screen and (max-width: 1200px) {
+  .card {
+    width: 250px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .card {
+    width: 301px;
     margin-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .card {
+    width: 95%;
   }
 }
 
@@ -405,6 +516,26 @@ ul {
   border-radius: 20px;
   display: inline-block;
   margin: 46px 72px 0 72px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .vector {
+    width: 100px;
+    margin: 46px 78px 0 72px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .vector {
+    width: 158px;
+    margin: 46px 72px 0 72px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .vector {
+    width: 130px;
+  }
 }
 
 .img-card {
@@ -438,4 +569,14 @@ footer {
   display: table;
   margin: 0 auto;
   padding: 45px;
+}
+
+@media only screen and (max-width: 300px) {
+  .footer-copy {
+    font-size: 10px;
+    color: #ffffff;
+    display: table;
+    margin: 0 auto;
+    padding: 45px;
+  }
 }

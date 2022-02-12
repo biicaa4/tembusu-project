@@ -114,19 +114,19 @@ tl3.from(".body-copy-second", {
   delay: 0.2,
 });
 
-tl4.from(".heading-third", {
-  duration: 2,
-  y: -40,
-  opacity: 0,
-  delay: 0.2,
-});
+// tl4.from(".heading-third", {
+//   duration: 2,
+//   y: -40,
+//   opacity: 0,
+//   delay: 0.2,
+// });
 
-tl5.from(".card-third-section", {
-  duration: 2,
-  y: 40,
-  opacity: 0,
-  delay: 0.2,
-});
+// tl5.from(".card-third-section", {
+//   duration: 2,
+//   y: 40,
+//   opacity: 0,
+//   delay: 0.2,
+// });
 
 gsap.from(".navbar-list a", {
   duration: 2,

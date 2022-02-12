@@ -387,7 +387,7 @@ ul {
 
 @media only screen and (max-width: 1200px) {
   .body-copy-second {
-    width: 95%;
+    width: 94%;
     padding-top: 32px;
   }
 }
@@ -491,7 +491,7 @@ ul {
 
 @media only screen and (max-width: 1200px) {
   .card {
-    width: 250px;
+    width: 240px;
   }
 }
 
